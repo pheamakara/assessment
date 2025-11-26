@@ -14,6 +14,7 @@ A comprehensive server infrastructure management system for tracking servers, ma
 - Notifications
 - Settings management
 - Profile management with password change
+- LDAP Authentication Support
 
 ## Tech Stack
 
@@ -68,6 +69,14 @@ A comprehensive server infrastructure management system for tracking servers, ma
    ```
    php install.php
    ```
+
+## LDAP Configuration
+
+The system supports LDAP authentication. To configure LDAP:
+
+1. Edit `app/config/ldap.php` with your LDAP server settings
+2. Ensure the PHP LDAP extension is installed and enabled
+3. Users can now log in with their LDAP credentials
 
 ## Default Credentials
 
